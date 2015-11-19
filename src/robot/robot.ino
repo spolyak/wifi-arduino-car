@@ -40,7 +40,7 @@ aREST rest = aREST();
 Adafruit_CC3000_Server restServer(LISTEN_PORT);
 
 #define WLAN_SSID       "Polyak2 Wi-Fi Network 5GHz"        // cannot be longer than 32 characters!
-#define WLAN_PASS       "A1989access"
+#define WLAN_PASS       "xxxxx"
 #define WLAN_SECURITY   WLAN_SEC_WPA2
 
 // Variable to be exposed to the API
