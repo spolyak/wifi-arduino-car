@@ -11,7 +11,7 @@
 
 // CC3000 pins
 #define ADAFRUIT_CC3000_IRQ   3
-#define ADAFRUIT_CC3000_VBAT  8
+#define ADAFRUIT_CC3000_VBAT  5
 #define ADAFRUIT_CC3000_CS    10
 
 // Robot speed
@@ -109,7 +109,7 @@ void loop() {
 // Forward
 int forward(String command) {
 
-  Serial.println(F(Go forward\r\n"));
+  Serial.println(F("Go forward\r\n"));
   //send_motor_command(speed_motor1,direction_motor1,100,1);
   //send_motor_command(speed_motor2,direction_motor2,100,1);
   return 1;
@@ -118,7 +118,7 @@ int forward(String command) {
 // Backward
 int backward(String command) {
   
-  Serial.println(F(Go backward\r\n"));  
+  Serial.println(F("Go backward\r\n"));  
   //send_motor_command(speed_motor1,direction_motor1,100,0);
   //send_motor_command(speed_motor2,direction_motor2,100,0);
   return 1;
@@ -127,7 +127,7 @@ int backward(String command) {
 // Left
 int left(String command) {
 
-  Serial.println(F(Go left\r\n"));  
+  Serial.println(F("Go left\r\n"));  
   //send_motor_command(speed_motor1,direction_motor1,75,0);
   //send_motor_command(speed_motor2,direction_motor2,75,1);
   return 1;
@@ -136,7 +136,7 @@ int left(String command) {
 // Right
 int right(String command) {
 
-  Serial.println(F(Go right\r\n"));  
+  Serial.println(F("Go right\r\n"));  
   //send_motor_command(speed_motor1,direction_motor1,75,1);
   //send_motor_command(speed_motor2,direction_motor2,75,0);
   return 1;
@@ -145,7 +145,7 @@ int right(String command) {
 // Stop
 int stop(String command) {
 
-  Serial.println(F(Stop!\r\n"));  
+  Serial.println(F("Stop!\r\n"));  
   //send_motor_command(speed_motor1,direction_motor1,0,1);
   //send_motor_command(speed_motor2,direction_motor2,0,1);
   return 1;
