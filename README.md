@@ -2,7 +2,7 @@
 
 This Arduino robot car implementation was done originally based on this [implementation](wifi-coltrolled-mobile-robot.pdf).
 
-![r1](../../img/r1.jpg)
+![r1](https://raw.githubusercontent.com/spolyak/wifi-arduino-car/master/img/r1.JPG)
 
 
 software artifacts for an arduino wifi car
