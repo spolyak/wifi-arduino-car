@@ -38,7 +38,7 @@ Need libraries:
 
 See the src folder for code for the code. The robot code goes to the wifi/uno shield and the robot motor software goes to the motor/uno shield.
 
-# The website software
+# The Website Software
 
 See the interface folder using node.js
 

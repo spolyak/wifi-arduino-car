@@ -1,11 +1,4 @@
-/* 
-This is a test sketch for the Adafruit assembled Motor Shield for Arduino v2
-It won't work with v1.x motor shields! Only for the v2's with built in PWM
-control
-
-For use with the Adafruit Motor Shield v2 
----->	http://www.adafruit.com/products/1438
-*/
+// motor shield
 
 #include <Wire.h>
 #include <Adafruit_MotorShield.h>
@@ -76,24 +69,4 @@ void loop() {
     myOtherMotor->run(FORWARD);
   }
   }
-  /*
-  if(leftMotorPin == HIGH || rightMotorPin == HIGH) {
-    for (i=0; i<150; i++) {
-      if(leftMotorPin == HIGH) {
-        myMotor->setSpeed(i);
-        myMotor->run(FORWARD);
-      }
-      if(rightMotorPin == HIGH) {
-        myOtherMotor->setSpeed(i); 
-        myOtherMotor->run(FORWARD);
-      }     
-      delay(10);
-    }
-    /*if(leftMotorPin == HIGH) {
-      myMotor->run(RELEASE);
-    }
-    if(rightMotorPin == HIGH) {
-      myOtherMotor->run(RELEASE);
-    }*/
-  //}
 }
