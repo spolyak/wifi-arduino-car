@@ -20,7 +20,7 @@ app.get('/', function(req, res){
 var arest = require("arest")(app);
 
 arest.addDevice('http','192.168.1.6');
-arest.addDevice('serial','/dev/cu.usbmodem1d11', 115200);
+//arest.addDevice('serial','/dev/cu.usbmodem1d11', 115200);
 
 // Start server
 app.listen(port);

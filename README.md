@@ -1,4 +1,8 @@
-# wifi-arduino-car
+# WiFi Robot Car
+
+This Arduino robot car implementation was done 
+
+
 software artifacts for an arduino wifi car
 
 need libraries:
