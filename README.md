@@ -4,6 +4,20 @@ This Arduino robot car implementation was originally based on this project [impl
 
 # The Parts
 
+* 2 Arduino Uno boards
+* 1 2WD Motor Smart Robot Car Chassis Kit Speed Encoder Battery Box for Arduino
+* 1 DFRobot 7.4V LiPo 2200mAh Battery (Arduino Power Jack)
+* 1 AA battery power pack
+* 1 6 x AA battery holder with 5.5mm/2.1mm plug
+* 2 arduino breadboards
+* HC - SR04 Ultrasonic Distance Measuring Sensor Module for Arduino / NewPing Library
+* Solder iron, solder
+* LED, resistor (purple, black, red, gold)
+* Breadboard jumper cables
+* Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - v2.3
+* Adafruit HUZZAH CC3000 WiFi Shield with Onboard Antenna
+* Set of stackable headers
+
 # The Car
 
 The robot car can be controlled via WiFi using a webpage that issues REST server commands to the car. The car built looks like this:
