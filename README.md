@@ -1,6 +1,8 @@
 # WiFi Robot Car
 
-This Arduino robot car implementation was originally based on this project [implementation](https://github.com/spolyak/wifi-arduino-car/blob/master/wifi-controlled-mobile-robot.pdf). After I bought the WiFi shield and Motor shiled though I realized that I had a pin conflict so I decided to try the build using two Arduino boards instead. This buildout achieves the same result using two boards.
+This Arduino robot car implementation was originally based on this project [implementation](https://github.com/spolyak/wifi-arduino-car/blob/master/wifi-controlled-mobile-robot.pdf). After I bought the WiFi shield and Motor shield though I realized that I had a pin conflict so I decided to try the build using two Arduino boards instead. This buildout achieves the same result using two boards.
+
+# The Parts
 
 # The Car
 
@@ -8,6 +10,9 @@ The robot car can be controlled via WiFi using a webpage that issues REST server
 
 ![r1](https://raw.githubusercontent.com/spolyak/wifi-arduino-car/master/img/r1.JPG)
 ![r2](https://raw.githubusercontent.com/spolyak/wifi-arduino-car/master/img/r2.JPG)
+
+The wiring is summarized as follows:
+![r3](https://raw.githubusercontent.com/spolyak/wifi-arduino-car/master/img/r3.JPG)
 
 software artifacts for an arduino wifi car
 
